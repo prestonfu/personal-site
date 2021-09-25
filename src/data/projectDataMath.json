@@ -1,0 +1,48 @@
+[
+  {
+    "projectName": "[Expository Paper] Covering Spaces (Current)",
+    "techStack": [
+      "Algebraic Topology"
+    ],
+    "description": 
+      "Work in progress."
+    ,
+    "imgSrc": "../images/covering-spaces.png",
+    "projectLink": ""
+  },
+  {
+    "projectName": "[Published Book] Math Beyond the Classroom",
+    "techStack": [
+      "Algebra",
+      "Combinatorics",
+      "Geometry",
+      "Number Theory"
+    ],
+    "description": 
+      "An overview of a wide variety of fascinating topics in mathematics, including complex numbers, the principle of inclusion-exclusion, power of a point, modular arithmetic, and more. Containing over 200 problems and filled with highly-motivated solutions and hints, this book is suitable for middle and high school students interested in developing a deeper conceptual understanding of math through learning by doing. \n \n Raised funds for complimentary Featured by Minnesota State MATHCOUNTS."
+    ,
+    "imgSrc": "../images/math-beyond-the-classroom-cover.png",
+    "projectLink": "https://www.amazon.com/Math-Beyond-Classroom-Preston-Fu/dp/B08KPXM1TD/ref=sr_1_3?dchild=1&keywords=math+beyond+the+classroom&qid=1632605545&sr=8-3"
+  },
+  {
+    "projectName": "[Expository Paper] Matrix Lie Groups",
+    "techStack": [
+      "Abstract Algebra",
+      "Lie Theory"
+    ],
+    "description": 
+      "We introduce Lie theory through the special case of matrix Lie groups. In doing so, we omit the topology that is essential to a more general study of Lie theory. In section 2, we introduce the notion of a matrix Lie group along with several basic definitions and properties of matrices. Section 3 defines and details matrix exponentiation; in section 4, we discuss tangent spaces and the Lie bracket, and in section 5 their connections to Lie algebras.",
+    "imgSrc": "../images/E8Petrie.svg",
+    "projectLink": "../files/MatrixLieGroupsPaper.pdf"
+  },
+  {
+    "projectName": "[Presentation Notes] Some Strange 3-adic Identities",
+    "techStack": [
+      "p-adic Analysis"
+    ],
+    "description": 
+      "Rough notes: Proofs of strange 3-adic identities regarding [ SUM (2i choose i) for i=0 to n-1 ] using Hensel's Lemma and Multivariable Calculus, originally Proposed by Nicholas Strauss, Pontificia Universidade Catolica do Rio de Janeiro, Brazil, and Jeffrey Shallit, Dartmouth College in the American Math Monthly, 6625 [1990, 252].",
+    "imgSrc": "../images/p-adic-analysis.png",
+    "projectLink": "../files/Some_strange_3adic_identities.pdf"
+  }
+]

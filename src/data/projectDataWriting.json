@@ -1,0 +1,25 @@
+[
+  {
+    "projectName": "What Learning Looks Like",
+    "techStack": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "description": 
+      "Allowing students from across the world to share experiences and perspectives amid the COVID-19 pandemic. Connected with students from 10+ countries."
+    ,
+    "imgSrc": "../images/what-learning-looks-like.png",
+    "projectLink": "https://globalstudentsquare.org/WLL"
+  },
+  {
+    "projectName": "\"Musings\" Blog",
+    "techStack": [
+    ],
+    "description": 
+      "Studying the current state of America's democracy through the lens of science and data."
+    ,
+    "imgSrc": "../images/we-the-people.jpg",
+    "projectLink": "https://prestonmfu.wixsite.com/musings"
+  }
+]

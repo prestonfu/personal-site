@@ -1,0 +1,21 @@
+[
+  {
+    "languages": [
+      "Java",
+      "Python", 
+      "C++",
+      "LaTeX",
+      "JavaScript",
+      "HTML+CSS"
+    ],
+    "technologies": [
+      "NumPy",
+      "Pandas",
+      "TensorFlow",
+      "Keras",
+      "SciKit-Learn",
+      "Matplotlib",
+      "Seaborn"
+    ]
+  }
+]
