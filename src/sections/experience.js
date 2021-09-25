@@ -20,7 +20,7 @@ const Experience = () => {
               <li>Significantly reduced dimensionality of robotic rodent model’s action space through principal component analysis on virtual actuators</li>
               <li>Enables faster prototyping of novel reinforcement learning algorithms and efficient testing of neuroscience hypotheses for autonomous navigation in unstructured domains; motivates real-world biological experiments</li>
             </ul>
-            <div id="yei" className="h-8"></div>
+            <div id="everaise" className="h-8"></div>
             <h3>Co-founder &amp; Program Coordinator @ <a href="https://everase.org/" className="link" target="_blank" rel="noreferrer">Everaise Academy</a></h3>
             <p className="date">2020 - Present</p>
             <ul className="list-square pl-8 pt-3">

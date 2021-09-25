@@ -23,12 +23,11 @@ const Hero = () => {
                     <Typewriter
                         options={{
                           strings: [
-                            '<b>making cool stuff.</b>',
-                            '<b>solving problems.</b>', 
-                            '<b>learning new things.</b>', 
-                            '<b>meeting people.</b>',
-                            '<b>developing apps.</b>', 
-                            '<b>eating good food.</b>',
+                            '<b>solving real-world problems.</b>',
+                            '<b>learning cool things.</b>', 
+                            '<b>meeting new people.</b>',
+                            '<b>traveling the world.</b>',
+                            '<b>folding modular origami.</b>',
                           ],
                           autoStart: true,
                           loop: true,
@@ -43,14 +42,13 @@ const Hero = () => {
                 </div>
                 <div className="flex mt-6 mx-6 sm:mx-0">
                   <p>
-                    I'm a student at Stanford University pursuing
-                    a degree in computer science and economics. I'm currently
-                    working as an undergraduate researcher in the Stanford Secure
-                    Computer Systems group. I'm also the co-founder 
-                    of the <a className="link" href="#yei">
-                      Youth Economics Initiative
+                    I'm a student at Saratoga High School interested in math and 
+                    computer science; I'm specifically interested in abstract algebra as well as 
+                    algorithms and their real-world applications in deep learning. As an ardent supporter
+                    of promoting equity in education, I'm also a cofounder of <a className="link" href="/bio#everaise">
+                      Everaise Academy
                       </a>,
-                    a network of economics clubs in 60+ schools serving over 2,500 students.
+                    an online STEM school with over 1,500 students spanning 40 countries.
                   </p>
                 </div>
                 <div className="h-12" />

@@ -18,6 +18,7 @@ const Education = () => {
               <img className="rounded-lg h-2/3 w-2/3 md:w-auto md:h-auto" src="../images/saratoga.jpg" alt="Saratoga High" />
             </div>
             <div className="mt-6 md:mt-0 md:pl-10 ">
+              <div id="shs" />
               <div className = "flex justify-center md:block">
                 <h3>
                   <a href="https://www.saratogahigh.org/" className="link" target="_blank" rel="noreferrer">Saratoga High School</a>
