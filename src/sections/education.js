@@ -57,7 +57,7 @@ const Education = () => {
               </div>
               <div className="h-4"/>
               <div className = "flex justify-center md:block">
-                <p>Relevant Coursework</p>
+                <p>Selected Coursework</p>
               </div>
               <div className="h-2"></div>
               <div className="flex justify-center md:justify-start flex-wrap">
@@ -113,7 +113,7 @@ const Education = () => {
                   </a>
                   <a href="https://www.coursera.org/specializations/algorithms" target="_blank">
                     <div className="tag-outline-wrapper">
-                      <p className="text-xs sm:text-sm font-inter">Coursera/Stanford: Algorithms Specialization</p>
+                      <p className="text-xs sm:text-sm font-inter">Coursera/Stanford: 4-course Algorithms Specialization</p>
                     </div>
                   </a>
                 </div>
