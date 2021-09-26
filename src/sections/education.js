@@ -113,7 +113,7 @@ const Education = () => {
                   </a>
                   <a href="https://www.coursera.org/specializations/algorithms" target="_blank">
                     <div className="tag-outline-wrapper">
-                      <p className="text-xs sm:text-sm font-inter"></p>
+                      <p className="text-xs sm:text-sm font-inter">Coursera/Stanford: Algorithms Specialization</p>
                     </div>
                   </a>
                 </div>

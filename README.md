@@ -1,3 +1,9 @@
+# Website is available at [https://prestonfu.com](prestonfu.com) !!
+
+---
+
+To use this website template, please contact me for permission and fork this repo. Below is information on how to use it.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
