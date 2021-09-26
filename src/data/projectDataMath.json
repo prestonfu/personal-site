@@ -41,7 +41,7 @@
       "p-adic Analysis"
     ],
     "description": 
-      "Rough notes: Proofs of strange 3-adic identities regarding [ SUM (2i choose i) for i=0 to n-1 ] using Hensel's Lemma and Multivariable Calculus, originally Proposed by Nicholas Strauss, Pontificia Universidade Catolica do Rio de Janeiro, Brazil, and Jeffrey Shallit, Dartmouth College in the American Math Monthly, 6625 [1990, 252].",
+      "Rough notes: Proofs of strange 3-adic identities regarding [ SUM (2i choose i) for i=0 to n-1 ] using Hensel's Lemma and Multivariable Calculus, originally proposed by Nicholas Strauss, Pontificia Universidade Catolica do Rio de Janeiro, Brazil, and Jeffrey Shallit, Dartmouth College in the American Math Monthly, 6625 [1990, 252].",
     "imgSrc": "../images/p-adic-analysis.png",
     "projectLink": "../files/Some_strange_3adic_identities.pdf"
   }
