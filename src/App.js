@@ -5,9 +5,7 @@ import Footer from "./sections/footer"
 import ProjectsCS from "./sections/projects/cs"
 import ProjectsMath from "./sections/projects/math"
 import ProjectsWriting from "./sections/projects/writing"
-import Education from "./sections/education";
-import HonorsAwards from "./sections/honors-awards";
-import Skills from "./sections/skills";
+import Resume from "./sections/resume";
 import { Helmet } from "react-helmet";
 
 import {
@@ -40,27 +38,16 @@ function App() {
             <div className="h-20 bg-white" />
             <ProjectsWriting />
           </Route>
-          <Route path="/bio">
+          <Route path="/resume">
             <div className="h-20 bg-white" />
-            <div className="h-auto bg-white">
-            <div className="mx-auto max-w-6xl sm:pl-16 z-0">
-              <div className="h-12" />
-              <h2 className = "text-center sm:text-center page-header">
-                <b>About Me</b>
-              </h2>
-            </div>
-            </div>
-            <Experience />
-            <Education />
-            <HonorsAwards />
-            <Skills />
+            <Resume />
           </Route>
           <Route path="/">
             <Hero />
           </Route>
         </Switch>
 
-        <div id="footer">
+        <div id="contact">
           <Footer/>
         </div>
       </Router>
