@@ -38,7 +38,7 @@ html {
 }
 
 .footer-link{
-  @apply font-inter text-xs lg:text-sm transition duration-75 hover:text-emerald-light
+  @apply font-inter text-xs lg:text-sm transition duration-75 hover:text-emerald
 }
 
 .hero-header{
