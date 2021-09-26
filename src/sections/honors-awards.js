@@ -24,19 +24,7 @@ const HonorsAwards = () => {
                 <p className="text-xs sm:text-sm font-inter"><b>USA Computing Olympiad Gold Division</b>, 2018</p>
               </div>
               <div className="tag-outline-wrapper">
-                <p className="text-xs sm:text-sm font-inter"><b>Canadian Open Mathematics Challenge ∙ Honorable Mention, Top 8 Internationally</b>, 2020</p>
-              </div>
-              <div className="tag-outline-wrapper">
-                <p className="text-xs sm:text-sm font-inter"><b>American Regions Mathematics League ∙ Top 30 Nationally</b>, 2020 <b>∙ Team 1st Internationally</b>, 2021</p>
-              </div>
-              <div className="tag-outline-wrapper">
-                <p className="text-xs sm:text-sm font-inter"><b>Physics Bowl Division I ∙ Team 2nd Nationally</b>, 2021</p>
-              </div>
-              <div className="tag-outline-wrapper">
-                <p className="text-xs sm:text-sm font-inter"><b>US Math Competition Association Premier Division ∙ Team 4th Nationally</b>, 2020</p>
-              </div>
-              <div className="tag-outline-wrapper">
-                <p className="text-xs sm:text-sm font-inter"><b>Stanford Math Tournament ∙ Algebra 1st</b>, 2019 <b>∙ Geometry 5th</b>, 2020 <b>∙ Calculus 8th</b>, 2019 <b>∙ Team 1st</b>, 2021</p>
+                <p className="text-xs sm:text-sm font-inter"><b>American Regions Mathematics League ∙ Top 30 Nationally</b>, 2020</p>
               </div>
               <div className="tag-outline-wrapper">
                 <p className="text-xs sm:text-sm font-inter"><b>Tests of Engineering Aptitude, Math, Science National Qualifier</b>, 2019–2020</p>

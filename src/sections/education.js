@@ -106,33 +106,16 @@ const Education = () => {
                 </div>
               <div className="h-2"></div>
                 <div className="flex justify-center md:justify-start flex-wrap">
+                  <a href="https://www.deeplearning.ai/program/deep-learning-specialization/" target="_blank">
                   <div className="tag-outline-wrapper">
-                    <p className="text-xs sm:text-sm font-inter">Neural Networks and Deep Learning</p>
+                    <p className="text-xs sm:text-sm font-inter">Coursera/Deeplearning.AI: 5-course Deep Learning Specialization</p>
                   </div>
-                  <div className="tag-outline-wrapper">
-                    <p className="text-xs sm:text-sm font-inter">Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization</p>
-                  </div>
-                  <div className="tag-outline-wrapper">
-                    <p className="text-xs sm:text-sm font-inter">Structuring Machine Learning Projects</p>
-                  </div>
-                  <div className="tag-outline-wrapper">
-                    <p className="text-xs sm:text-sm font-inter">Convolutional Neural Networks</p>
-                  </div>
-                  <div className="tag-outline-wrapper">
-                    <p className="text-xs sm:text-sm font-inter">Sequence Models</p>
-                  </div>
-                  <div className="tag-outline-wrapper">
-                    <p className="text-xs sm:text-sm font-inter">Divide and Conquer, Sorting and Searching, and Randomized Algorithms</p>
-                  </div>
-                  <div className="tag-outline-wrapper">
-                    <p className="text-xs sm:text-sm font-inter">Graph Search, Shortest Paths, and Data Structures</p>
-                  </div>
-                  <div className="tag-outline-wrapper">
-                    <p className="text-xs sm:text-sm font-inter">Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming</p>
-                  </div>
-                  <div className="tag-outline-wrapper">
-                    <p className="text-xs sm:text-sm font-inter">Shortest Paths Revisited, NP-Complete Problems and What To Do About Them</p>
-                  </div>
+                  </a>
+                  <a href="https://www.coursera.org/specializations/algorithms" target="_blank">
+                    <div className="tag-outline-wrapper">
+                      <p className="text-xs sm:text-sm font-inter"></p>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
