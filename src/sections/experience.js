@@ -10,7 +10,7 @@ const Experience = () => {
         <div className="h-12" />
         <div className="experience-grid">
           <h2 className = "text-center md:text-left section-header">
-            <b>Experience</b>
+            <b>EXPERIENCE</b>
           </h2>
           <div className="col-start-2 mt-12 px-8 md:mt-0 col-end-2 md:pl-6 md:pr-16">
             <h3>Research Intern @ <a href="https://www.bu.edu/eng/departments/se/" className="link" target="_blank" rel="noreferrer">Division of Systems Engineering, Boston University</a></h3>
@@ -21,11 +21,11 @@ const Experience = () => {
               <li>Enables faster prototyping of novel reinforcement learning algorithms and efficient testing of neuroscience hypotheses for autonomous navigation in unstructured domains; motivates real-world biological experiments</li>
             </ul>
             <div id="everaise" className="h-8"></div>
-            <h3>Co-founder &amp; Program Coordinator @ <a href="https://everase.org/" className="link" target="_blank" rel="noreferrer">Everaise Academy</a></h3>
+            <h3>Co-founder &amp; Program Coordinator @ <a href="https://everaise.org/" className="link" target="_blank" rel="noreferrer">Everaise Academy</a></h3>
             <p className="date">2020 - Present</p>
             <ul className="list-square pl-8 pt-3">
               <li>Co-founded nonprofit online STEM school with 1500+ students from 40+ countries</li>
-              <li>Directed web and STEM curriculum development, publishing, and delivery; managed program-wide competitions and events</li>
+              <li>Directed web and STEM curriculum development, book publishing, and content delivery; managed program-wide competitions and events</li>
               <li>Recruited over 50 volunteers as instructors and curriculum developers; organized sponsorships and partnerships; sought professors and industry leaders to give guest lectures</li>
             </ul>
             <div className="h-8"></div>

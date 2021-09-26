@@ -12,17 +12,17 @@ const Footer = () => {
         <p className = "text-xs lg:text-sm">© PRESTON FU. Credit to <a href="https://github.com/henryweng03/personal-site" target="_blank">Henry Weng</a> for this website template.</p>
       </div>
       <div className = "flex justify-end items-center space-x-4">
-        <a className="sm:py-6" href="mailto:prestonmfu@gmail.com">
+        <a className="sm:py-6" href="mailto:prestonmfu@gmail.com" target="_blank">
           <p className = "footer-link font-bold">
             Email
           </p>
         </a>
-        <a className="sm:py-6" href="https://www.linkedin.com/in/preston-fu/">
+        <a className="sm:py-6" href="https://www.linkedin.com/in/preston-fu/" target="_blank">
           <p className = "footer-link font-bold">
             LinkedIn
           </p>
         </a>
-        <a className="sm:py-6" href="https://github.com/prestonfu">
+        <a className="sm:py-6" href="https://github.com/prestonfu" target="_blank">
           <p className = "footer-link font-bold sm:mr-6">
             GitHub
           </p>

@@ -42,17 +42,18 @@ const Hero = () => {
                 </div>
                 <div className="flex mt-6 mx-6 sm:mx-0">
                   <p>
-                    I'm a student at Saratoga High School interested in math and 
-                    computer science; I'm specifically interested in abstract algebra as well as 
-                    algorithms and their real-world applications in deep learning. As an ardent supporter
-                    of promoting equity in education, I'm also a cofounder of <a className="link" href="/bio#everaise">
+                    I'm a student at Saratoga High School and math and 
+                    computer science enthusiast. I'm specifically interested 
+                    in topology, analytic number theory, algorithms, and deep
+                    learning. As an ardent supporter of promoting equity in 
+                    education, I'm also a cofounder of <a className="link" href="/bio#everaise">
                       Everaise Academy
                       </a>,
                     an online STEM school with over 1,500 students spanning 40 countries.
                   </p>
                 </div>
-                <div className="h-12" />
-                  <a href="/projects/math">
+                <div className="h-10" />
+                  {/* <a href="/projects/math">
                     <button className="outline-button mt-6 mr-8">
                       Math →
                     </button>
@@ -66,10 +67,10 @@ const Hero = () => {
                     <button className="outline-button mt-6 mr-8">
                       Writing →
                     </button>
-                  </a>
-                  <a href="/bio">
-                    <button className="outline-button mt-6 mr-8">
-                      About Me →
+                  </a> */}
+                  <a href="/resume">
+                    <button className="outline-button mt-6">
+                      LEARN MORE →
                     </button>
                   </a>
               </div>

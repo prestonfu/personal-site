@@ -9,7 +9,7 @@ const Education = () => {
       <div className="mx-auto max-w-6xl sm:pl-16 z-0">
         <div className="h-12" />
         <h2 className = "text-center lg:text-left section-header">
-          <b>Education</b>
+          <b>EDUCATION</b>
         </h2>
         <div className="px-8 sm:pr-16 sm:pl-0 mt-12">
 
@@ -101,7 +101,7 @@ const Education = () => {
               <div className="mt-6 md:mt-0 md:pl-10 ">
                 <div className = "flex justify-center md:block">
                   <h3>
-                    <a className="link" target="_blank" rel="noreferrer">Additional Coursework</a>
+                    Additional Coursework
                   </h3>
                 </div>
               <div className="h-2"></div>

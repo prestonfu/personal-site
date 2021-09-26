@@ -30,7 +30,7 @@ html {
 }
 
 .nav-link{
-  @apply font-inter hidden sm:text-sm lg:text-base md:block transition duration-75 hover:text-emerald
+  @apply font-inter hidden text-lg sm:text-lg lg:text-lg md:block transition duration-75 hover:text-emerald
 }
 
 .link{
@@ -58,13 +58,13 @@ html {
 }
 
 .outline-button{
-  @apply text-sm transition duration-300 ease-in-out hover:bg-emerald hover:border-transparent hover:shadow-green
+  @apply text-sm transition duration-300 ease-in-out hover:bg-emerald hover:border-transparent hover:shadow-blue
   hover:text-white py-3 px-6 border border-emerald-dark text-emerald-dark rounded-lg sm:text-lg font-inter
 }
 
 .outline-button-sm{
-  @apply text-sm transition duration-300 ease-in-out bg-gray-200 hover:bg-emerald hover:border-transparent hover:shadow-green
-  hover:text-white py-2 px-4 border  rounded-lg lg:text-sm font-inter
+  @apply text-xs transition duration-300 ease-in-out hover:bg-emerald hover:border-transparent hover:shadow-blue
+  hover:text-white py-1.5 px-3 border border-transparent bg-emerald-light  rounded-lg font-inter
 }
 
 .hover-border{
@@ -82,7 +82,7 @@ html {
 @media only screen and (min-width: 768px) {
   .hero-grid{
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 8em 1fr;
   }  
 }
 

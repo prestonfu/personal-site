@@ -39,7 +39,8 @@ module.exports = {
         }
       },
       boxShadow: {
-        green : '0 0px 15px 0px rgba(80, 200, 120, 0.7)'
+        green : '0 0px 15px 0px rgba(80, 200, 120, 0.7)',
+        blue : '0 0px 10px 0px rgba(2, 136, 209, 0.7)'
       },
       height: {
         screenBigger: '125vh'

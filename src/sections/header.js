@@ -7,7 +7,7 @@ const Header = () => {
         <div>
           <a href="/">
             <p className = "nav-name">
-              <b>Preston Fu</b>
+              <b>PRESTON FU</b>
             </p>
           </a>
         </div>
@@ -29,15 +29,15 @@ const Header = () => {
               Writing
             </p>
           </a>
-          <a href="/bio">
+          <a href="/resume">
             <p className = "nav-link mr-8">
-              Bio
+              Resume
             </p>
           </a>
-          <a href="/files/Resume.pdf"  target="_blank">
-            <button className="outline-button-sm">
-              Resume
-            </button>
+          <a href="#contact">
+            <p className = "nav-link">
+              Contact
+            </p>
           </a>
         </div>
       </div>

@@ -12,7 +12,7 @@ const Skills = () => {
         <div className="h-12" />
         <div className="skills-grid">
           <h2 className = "text-center md:text-left section-header">
-            <b>Skills</b>
+            <b>SKILLS</b>
           </h2>
           <div className="mt-12 px-8 md:mt-0 md:pl-6 md:pr-6">
             <div>
