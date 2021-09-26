@@ -12,11 +12,11 @@ const Projects = () => {
       <div className="mx-auto max-w-6xl sm:pl-16 z-0">
         <div className="h-12" />
         <h2 className = "text-center sm:text-center page-header">
-          <b>Writing</b>
+          <b>WRITING</b>
         </h2>
         <div className="px-8 sm:pr-16 sm:pl-0 mt-12">
             {projData.map((data) => (
-              <div>
+              <div id={data.projectID}>
                 <ProjectCard
                   projectName = {data.projectName}
                   techStack = {data.techStack}
