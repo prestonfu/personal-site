@@ -29,7 +29,7 @@ const Header = () => {
               Writing
             </p>
           </a>
-          <a href="/resume">
+          <a href="/files/Resume.pdf" target="_blank">
             <p className = "nav-link mr-8">
               Resume
             </p>
