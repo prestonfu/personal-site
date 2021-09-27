@@ -5,7 +5,6 @@ import Footer from "./sections/footer"
 import ProjectsCS from "./sections/projects/cs"
 import ProjectsMath from "./sections/projects/math"
 import ProjectsWriting from "./sections/projects/writing"
-import Resume from "./sections/resume";
 import { Helmet } from "react-helmet";
 
 import {
@@ -37,10 +36,6 @@ function App() {
           <Route path="/projects/writing">
             <div className="h-20 bg-white" />
             <ProjectsWriting />
-          </Route>
-          <Route path="/resume">
-            <div className="h-20 bg-white" />
-            <Resume />
           </Route>
           <Route path="/">
             <Hero />

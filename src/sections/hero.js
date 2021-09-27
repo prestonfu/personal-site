@@ -52,7 +52,7 @@ const Hero = () => {
                     an online STEM school with over 1,500 students spanning 40 countries.
                   </p>
                 </div>
-                <div className="h-10" />
+                {/* <div className="h-10" /> */}
                   {/* <a href="/projects/math">
                     <button className="outline-button mt-6 mr-8">
                       Math →
@@ -68,11 +68,11 @@ const Hero = () => {
                       Writing →
                     </button>
                   </a> */}
-                  <a href="/resume">
+                  {/* <a href="/resume">
                     <button className="outline-button mt-6">
                       LEARN MORE →
                     </button>
-                  </a>
+                  </a> */}
               </div>
             </div>
           </div>

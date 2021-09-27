@@ -37,8 +37,8 @@ html {
   @apply transition duration-75 text-emerald hover:text-emerald-dark hover:bg-emerald-light
 }
 
-.footer-link{
-  @apply font-inter text-xs lg:text-sm transition duration-75 hover:text-emerald
+.contact-icon-link{
+  @apply font-inter text-base lg:text-base transition duration-75 hover:text-emerald
 }
 
 .hero-header{
@@ -65,6 +65,10 @@ html {
 .outline-button-sm{
   @apply text-xs transition duration-300 ease-in-out hover:bg-emerald hover:border-transparent hover:shadow-blue
   hover:text-white py-1.5 px-3 border border-transparent bg-emerald-light  rounded-lg font-inter
+}
+
+.contact-indicator{
+  @apply text-xs py-1.5 px-3 border border-transparent bg-gray-700 text-gray-200 rounded-lg font-inter
 }
 
 .hover-border{
