@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectCard from '../../components/project-card';
-import projectData from '../../data/projectDataCS.json'
+import projectData from '../../data/projects/projectDataCS.json'
 import '../../index.css'
 import '../hero-background.css'
 
