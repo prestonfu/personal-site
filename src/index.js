@@ -4,7 +4,7 @@ import './index.css';
 import App from './App.js';
 import ReactGA from "react-ga";
 
-ReactGA.initialize('UA-163109049-1');
+// ReactGA.initialize('UA-163109049-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 ReactDOM.render(
