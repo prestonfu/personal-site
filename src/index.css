@@ -34,7 +34,7 @@ html {
 }
 
 .link{
-  @apply transition duration-75 text-emerald hover:text-emerald-dark hover:bg-emerald-light
+  @apply transition duration-150 text-emerald hover:text-emerald-dark hover:bg-emerald-light
 }
 
 .contact-icon-link{

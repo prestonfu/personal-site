@@ -1,11 +1,11 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 import "../index.css"
-import './hero-background.css'
+import '../sections/hero-background.css'
 
 const Experience = () => {
   return (
-    <div className="h-auto bg-white">
+    <div className="h-auto">
       <div className="mx-auto max-w-6xl md:pl-16 z-0">
         <div className="h-12" />
         <div className="experience-grid">

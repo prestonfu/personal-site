@@ -8,7 +8,8 @@ const projData = projectData
 
 const Projects = () => {
   return (
-    <div className="h-auto bg-white">
+    <div className="h-auto">
+      <div className="h-20" />
       <div className="mx-auto max-w-6xl sm:pl-16 z-0">
         <div className="h-12" />
         <h2 className = "text-center sm:text-center page-header">

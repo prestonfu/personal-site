@@ -6,7 +6,7 @@ import Skills from "./skills";
 const Resume = () => {
   return (
     <div>
-      <div className="h-auto bg-white">
+      <div className="h-auto">
         <div className="mx-auto max-w-6xl sm:pl-16 z-0">
           <div className="h-12" />
           <h2 className="text-center sm:text-center page-header">

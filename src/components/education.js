@@ -5,7 +5,7 @@ import './hero-background.css'
 
 const Education = () => {
   return (
-    <div className="h-auto bg-white">
+    <div className="h-auto">
       <div className="mx-auto max-w-6xl sm:pl-16 z-0">
         <div className="h-12" />
         <h2 className = "text-center lg:text-left section-header">
