@@ -1,10 +1,13 @@
-import Experience from "./sections/experience";
+import Experience from "./components/experience";
 import Hero from "./sections/hero";
-import Header from "./sections/header"
-import Footer from "./sections/footer"
+import Header from "./components/header"
+import Navigation from "./components/navigation"
+import Footer from "./components/footer"
 import ProjectsCS from "./sections/projects/cs"
 import ProjectsMath from "./sections/projects/math"
 import ProjectsWriting from "./sections/projects/writing"
+import NotFound from "./sections/notfound"
+import Construction from "./sections/construction"
 import { Helmet } from "react-helmet";
 
 import {
@@ -16,38 +19,44 @@ import {
 
 
 function App() {
-  return (
-    <div className = "bg-white">
-      <Router>
+  var construction = new Boolean('true');
+
+  if (construction) {
+    return (
+      <div>
         <Helmet>
           <title>Preston Fu</title>
         </Helmet>
-        <Header />
-        
-        <Switch>
-          <Route path="/projects/math">
-            <div className="h-20 bg-white" />
-            <ProjectsMath />
-          </Route>
-          <Route path="/projects/cs">
-            <div className="h-20 bg-white" />
-            <ProjectsCS />
-          </Route>
-          <Route path="/projects/writing">
-            <div className="h-20 bg-white" />
-            <ProjectsWriting />
-          </Route>
-          <Route path="/">
-            <Hero />
-          </Route>
-        </Switch>
 
-        <div id="contact">
-          <Footer/>
-        </div>
-      </Router>
-    </div>
-  );
+        <Construction />
+      </div>
+    );
+  }
+  else {
+    return (
+      <div>
+        <Router>
+          <Helmet>
+            <title>Preston Fu</title>
+          </Helmet>
+          {/* <Header /> */}
+          <Navigation />
+
+          <Switch>
+            <Route exact path="/" component={Hero} />
+            <Route path="/projects/math" component={ProjectsMath} />
+            <Route path="/projects/cs" component={ProjectsCS} />
+            <Route path="/projects/writing" component={ProjectsWriting} />
+            <Route component={NotFound} status={404} />
+          </Switch>
+
+          <div id="contact">
+            <Footer />
+          </div>
+        </Router>
+      </div>
+    );
+  }
 }
 
 export default App;
