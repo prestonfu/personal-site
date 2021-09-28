@@ -5,7 +5,7 @@ import './hero-background.css'
 
 const HonorsAwards = () => {
   return (
-    <div className="h-auto bg-white">
+    <div className="h-auto">
       <div className="mx-auto max-w-6xl md:pl-16 z-0">
         <div className="h-12" />
         <div className="honors-awards-grid">
