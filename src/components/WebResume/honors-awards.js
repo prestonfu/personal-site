@@ -1,7 +1,5 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
-import "../index.css"
-import './hero-background.css'
 
 const HonorsAwards = () => {
   return (

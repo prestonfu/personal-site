@@ -1,7 +1,6 @@
 import React from 'react';
-import "../index.css"
 import SkillsList from './skills-list';
-import skillData from '../data/skillData.json'
+import skillData from '../../data/skillData.json'
 
 const skills = skillData
 

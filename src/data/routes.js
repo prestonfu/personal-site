@@ -1,7 +1,7 @@
-const NavData = [
+const routes = [
   {
     index: true,
-    label: "PRESTON FU",
+    label: "Preston Fu",
     path: '/',
   },
   {
@@ -19,6 +19,7 @@ const NavData = [
   {
     label: 'Resume',
     path: '/files/Resume.pdf',
+    newtab: true
   },
   {
     label: 'Contact',
@@ -26,4 +27,4 @@ const NavData = [
   },
 ];
 
-export default NavData;
+export default routes;

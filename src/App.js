@@ -1,27 +1,24 @@
-import Experience from "./components/experience";
-import Hero from "./sections/hero";
-import Header from "./components/header"
-import Navigation from "./components/navigation"
-import Footer from "./components/footer"
-import ProjectsCS from "./sections/projects/cs"
-import ProjectsMath from "./sections/projects/math"
-import ProjectsWriting from "./sections/projects/writing"
-import NotFound from "./sections/notfound"
-import Construction from "./sections/construction"
-import { Helmet } from "react-helmet";
+import "./static/css/main.scss"
 
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import Header from "./components/Header/header"
+import Footer from "./components/Footer/footer"
+
+import Hero from "./pages/Hero";
+import ProjectsCS from "./pages/projects/ComputerScience"
+import ProjectsMath from "./pages/projects/Math"
+import ProjectsLeadership from "./pages/projects/Leadership"
+import ProjectsWriting from "./pages/projects/Writing"
+import NotFound from "./pages/NotFound"
+import Construction from "./pages/Construction"
+
+import { Helmet } from "react-helmet";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 
 function App() {
-  var construction = new Boolean('true');
+  var construction = new Boolean(false);
 
-  if (construction) {
+  if (construction == true) {
     return (
       <div>
         <Helmet>
@@ -32,6 +29,7 @@ function App() {
       </div>
     );
   }
+
   else {
     return (
       <div>
@@ -39,14 +37,15 @@ function App() {
           <Helmet>
             <title>Preston Fu</title>
           </Helmet>
-          {/* <Header /> */}
-          <Navigation />
+          <Header />
+          {/* <Navigation /> */}
 
           <Switch>
             <Route exact path="/" component={Hero} />
             <Route path="/projects/math" component={ProjectsMath} />
             <Route path="/projects/cs" component={ProjectsCS} />
             <Route path="/projects/writing" component={ProjectsWriting} />
+            <Route path="/leadership" component={ProjectsLeadership} />
             <Route component={NotFound} status={404} />
           </Switch>
 

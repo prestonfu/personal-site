@@ -1,7 +1,4 @@
 import React from 'react';
-import Typewriter from 'typewriter-effect';
-import "../index.css"
-import '../sections/hero-background.css'
 
 const Experience = () => {
   return (

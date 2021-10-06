@@ -1,8 +1,6 @@
 import React from 'react';
-import ProjectCard from '../../components/project-card';
+import ProjectCard from '../../components/Projects/project-card';
 import projectData from '../../data/projects/projectDataWriting.json'
-import '../../index.css'
-import '../hero-background.css'
 
 const projData = projectData
 

@@ -20,11 +20,13 @@ export default function ProjectCard({
               <h3 className="text-xl sm:text-2xl">{projectName}</h3>
               <div className="flex flex-wrap mt-2">
                 {techStack.map((tech) => (
-                  <div 
-                    key={tech}
-                    className="tag-wrapper">
-                    <p className="text-xs sm:text-sm font-inter">{tech}</p>
-                  </div>
+                  <a href={tech[1]} target="_blank">
+                    <div 
+                      key={tech[0]}
+                      className="tag-wrapper">
+                      <p className="text-xs sm:text-sm font-inter">{tech[0]}</p>
+                    </div>
+                  </a>
                 ))}
               </div>
               <p className = "text-gray-700 text-base">{description}</p>

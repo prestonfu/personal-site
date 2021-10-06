@@ -1,6 +1,4 @@
 import React from 'react';
-import "../index.css"
-import './hero-background.css'
 
 
 const Education = () => {

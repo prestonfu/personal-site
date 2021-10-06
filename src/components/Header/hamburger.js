@@ -1,7 +1,7 @@
 import React, { Suspense, lazy, useState } from 'react';
 
 import { Link } from 'react-router-dom';
-import navData from '../data/navData';
+import routes from '../../data/routes';
 
 const Menu = lazy(() => import('react-burger-menu/lib/menus/slide'));
 
@@ -26,7 +26,7 @@ const Hamburger = () => {
       <Suspense fallback={<></>}>
         <Menu right isOpen={open}>
           <ul className="hamburger-ul">
-            {navData.map((l) => (
+            {routes.map((l) => (
               <li key={l.label}>
                 <Link to={l.path} onClick={() => setOpen(!open)}>
                   <h3 className={l.index && 'index-li'}>{l.label}</h3>

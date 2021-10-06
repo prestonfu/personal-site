@@ -1,7 +1,53 @@
-/* ./src/index.css */
+@import-normalize;
+
+// @import 'libs/vars';
+// @import 'libs/functions';
+// @import 'libs/mixins';
+// @import 'libs/skel';
+
+// @import 'base/page';
+// @import 'base/typography';
+
+// @import 'components/author';
+// @import 'components/blurb';
+// @import 'components/box';
+// @import 'components/button';
+// @import 'components/form';
+// @import 'components/icon';
+// @import 'components/image';
+// @import 'components/list';
+// @import 'components/mini-post';
+// @import 'components/post';
+// @import 'components/section';
+// @import 'components/table';
+// @import 'components/hamburger';
+// @import 'components/markdown';
+
+// @import 'layout/header';
+// @import 'layout/wrapper';
+// @import 'layout/main';
+// @import 'layout/sidebar';
+// @import 'layout/intro';
+// @import 'layout/footer';
+// @import 'layout/menu';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+// @include skel-breakpoints((
+//   xlarge: '(max-width: 1680px)',
+//   large: '(max-width: 1280px)',
+//   medium: '(max-width: 980px)',
+//   small: '(max-width: 736px)',
+//   xsmall: '(max-width: 480px)'
+// ));
+
+// @include skel-layout((
+//   reset: 'full',
+//   boxModel: 'border',
+//   grid: ( gutters: 1em )
+// ));
 
 html {
   scroll-behavior: smooth;
@@ -26,19 +72,19 @@ html {
 }
 
 .nav-name{
-  @apply text-xl sm:text-xl lg:text-xl font-inter
+  @apply font-inter text-lg sm:text-lg lg:text-lg transition duration-150 hover:text-emerald
 }
 
 .nav-link{
-  @apply font-inter hidden text-lg sm:text-lg lg:text-lg md:block transition duration-75 hover:text-emerald
+  @apply font-inter hidden text-lg sm:text-lg lg:text-lg md:block transition duration-150 hover:text-emerald
 }
 
 .link{
-  @apply transition duration-150 text-emerald hover:text-emerald-dark hover:bg-emerald-light
+  @apply transition duration-300 text-emerald hover:text-emerald-dark hover:bg-emerald-light
 }
 
 .contact-icon-link{
-  @apply font-inter text-base lg:text-base transition duration-75 hover:text-emerald
+  @apply font-inter text-base xl:text-base transition duration-300 hover:text-emerald
 }
 
 .hero-header{
@@ -68,19 +114,19 @@ html {
 }
 
 .contact-indicator{
-  @apply text-xs py-1.5 px-3 border border-transparent bg-gray-700 text-gray-200 rounded-lg font-inter
+  @apply text-xs py-1.5 px-3 border border-transparent bg-gray-700 text-gray-100 rounded-lg font-inter
 }
 
 .hover-border{
-  @apply p-6 transition duration-150 border-2 rounded-lg border-transparent hover:border-emerald-light hover:bg-emerald-light hover:bg-opacity-10 -mt-6 mb-0
+  @apply p-6 transition duration-150 border-2 rounded-lg border-transparent hover:border-emerald-light hover:bg-emerald-light hover:bg-opacity-30 -mt-6 mb-0
 }
 
 .tag-wrapper{
-  @apply py-0.5 px-2 rounded-md bg-emerald text-white mr-2 mb-2
+  @apply py-0.5 px-2 rounded-md bg-emerald text-white mr-2 mb-2 hover:bg-emerald-dark transition duration-150
 }
 
 .tag-outline-wrapper{
-  @apply transform duration-150 py-0.5 px-2 rounded-md border border-emerald mr-2 mb-2
+  @apply transform duration-300 py-0.5 px-2 rounded-md border border-emerald mr-2 mb-2
 }
 
 @media only screen and (min-width: 768px) {
@@ -133,51 +179,21 @@ html {
 }
 
 @font-face {
-  font-family: 'MessinaSans';
-  font-weight: 400;
-  src: url('./fonts/MessinaSans/MessinaSans-Regular.ttf')
-}
-
-@font-face {
-  font-family: 'MessinaSans';
-  font-weight: 700;
-  src: url('./fonts/MessinaSans/MessinaSans-SemiBold.ttf')
-}
-
-@font-face {
-  font-family: 'MessinaSans';
-  font-weight: 700;
-  src: url('./fonts/MessinaSans/MessinaSans-Black.ttf')
-}
-
-@font-face {
-  font-family: 'SFMono';
-  font-weight: 400;
-  src: url('./fonts/SFMono/SFMonoRegular.otf')
-}
-
-@font-face {
-  font-family: 'SFMono';
-  font-weight: 700;
-  src: url('./fonts/SFMono/SFMonoBold.otf')
-}
-
-@font-face {
   font-family: 'Inter';
   font-weight: 400;
-  src: url('./fonts/Inter/Inter-Regular.ttf')
+  src: url('../../fonts/Inter/Inter-Regular.ttf')
 }
 
 @font-face {
   font-family: 'Inter';
   font-weight: 600;
-  src: url('./fonts/Inter/Inter-SemiBold.ttf')
+  src: url('../../fonts/Inter/Inter-SemiBold.ttf')
 }
 
 @font-face {
   font-family: 'Inter';
   font-weight: 700;
-  src: url('./fonts/Inter/Inter-Bold.ttf')
+  src: url('../../fonts/Inter/Inter-Bold.ttf')
 }
 
 /* width */

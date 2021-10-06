@@ -1,17 +1,19 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
-import './hero-background.css'
 
 
 const Hero = () => {
   return (
     <div>
-      <div className="relative h-screen hero-background flex items-center">
+      <div className="relative h-screen flex items-center">
 
         <div className="mx-auto max-w-6xl sm:pl-16 z-0">
           {/* <div className="hero-grid"> */}
-          <div className="flex justify-center text-center sm:text-left sm:grid sm:grid-cols-12">
-            <div className="sm:col-span-10 md:col-span-9">
+          <div className="flex justify-center text-center sm:text-left grid sm:grid-cols-12">
+            <div className="sm:col-span-1 md:col-span-3">
+              <img className="flex justify-center md:block" width="80%" src="../images/mug.png" />
+            </div>
+            <div className="sm:col-span-9 md:col-span-8">
               <h1 className="mx-6 sm:mx-0 hero-header">Hi! I'm Preston.</h1>
 
               {/*this div creates flex tag, which is needed to put typewriter & text on same line*/}
@@ -46,7 +48,7 @@ const Hero = () => {
                   computer science enthusiast. I'm specifically interested
                   in topology, analytic number theory, algorithms, and deep
                   learning. As an ardent supporter of promoting equity in
-                  education, I'm also a cofounder of <a className="link" href="/bio#everaise">
+                  education, I'm also a cofounder of <a className="link" href="/leadership#everaise">
                     Everaise Academy
                   </a>,
                   an online STEM school with over 1,500 students spanning 40 countries.

@@ -1,8 +1,6 @@
 import React from 'react';
-import ProjectCard from '../../components/project-card';
-import projectData from '../../data/projects/projectDataMath.json'
-import '../../index.css'
-import '../hero-background.css'
+import ProjectCard from '../../components/Projects/project-card';
+import projectData from '../../data/projects/projectDataCS.json'
 
 const projData = projectData
 
@@ -13,7 +11,7 @@ const Projects = () => {
       <div className="mx-auto max-w-6xl sm:pl-16 z-0">
         <div className="h-12" />
         <h2 className = "text-center sm:text-center page-header">
-          <b>MATHEMATICS PROJECTS</b>
+          <b>COMPUTER SCIENCE PROJECTS</b>
         </h2>
         <div className="px-8 sm:pr-16 sm:pl-0 mt-12">
             {projData.map((data) => (
