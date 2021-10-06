@@ -1,13 +1,21 @@
 [
   {
-    "projectName": "What Learning Looks Like",
+    "projectName": "Saratoga Falcon Newspaper",
     "techStack": [
-      "HTML",
-      "CSS",
-      "JavaScript"
     ],
     "description": 
-      "Allowing students from across the world to share experiences and perspectives amid the COVID-19 pandemic. Connected with students from 10+ countries."
+      "Over my four years with the CSPA award-winning Saratoga Falcon newspaper, I’ve taken on these positions: Opinion Editor, School Scope Editor, and Staff Writer. In addition to the editor roles of proposing story ideas and editing and writing articles, I also ran writing workshops, facilitated inter-grade-level support, copy-edited, drew editorial cartoons, and represented the school in the JEA/NSPA National High School Convention."
+    ,
+    "imgSrc": "../images/saratoga_falcon.png",
+    "projectLink": "https://saratogafalcon.org/",
+    "projectID": "saratoga-falcon"
+  },
+  {
+    "projectName": "What Learning Looks Like",
+    "techStack": [
+    ],
+    "description": 
+      "Allowing students from across the world to share experiences and perspectives amid the COVID-19 pandemic. Connected with students from 10+ countries. The site was featured by Chalkbeat."
     ,
     "imgSrc": "../images/what-learning-looks-like.png",
     "projectLink": "https://globalstudentsquare.org/WLL",

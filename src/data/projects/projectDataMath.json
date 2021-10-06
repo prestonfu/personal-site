@@ -1,23 +1,20 @@
 [
   {
-    "projectName": "[Expository Paper] Covering Spaces (Current)",
+    "projectName": "Lifting Properties and Classification of Covering Spaces",
     "techStack": [
-      "Algebraic Topology"
+      ["Expository Paper"]
     ],
     "description": 
-      "Work in progress."
+      "We study the fundamental group in general topological spaces and its relationship to covering spaces. Great focus is placed on lifting paths and homotopies in covering spaces and their relationship to the induced homomorphism. Our discussion concludes with the universal cover — proving existence and uniqueness in a direct constructing and highlighting its utility through applications. We conclude with a discussion of the relationship between covering spaces and the Galois correspondence."
     ,
-    "imgSrc": "../images/covering-spaces.png",
-    "projectLink": "",
+    "imgSrc": "../images/colorful-covering-spaces.jpg",
+    "projectLink": "../files/CoveringSpaces.pdf",
     "projectID": "covering-spaces"
   },
   {
-    "projectName": "[Published Book] Math Beyond the Classroom",
+    "projectName": "Math Beyond the Classroom",
     "techStack": [
-      "Algebra",
-      "Combinatorics",
-      "Geometry",
-      "Number Theory"
+      ["Published Book"]
     ],
     "description": 
       "An overview of a wide variety of fascinating topics in mathematics, including complex numbers, the principle of inclusion-exclusion, power of a point, modular arithmetic, and more. Containing over 200 problems and filled with highly-motivated solutions and hints, this book is suitable for middle and high school students interested in developing a deeper conceptual understanding of math through learning by doing. Raised funds for complimentary need-based copies. Nationally read by students and teachers; featured by Minnesota State MATHCOUNTS."
@@ -27,26 +24,25 @@
     "projectID": "math-beyond-classroom"
   },
   {
-    "projectName": "[Expository Paper] Matrix Lie Groups",
+    "projectName": "Matrix Lie Groups and the Lie group–Lie Algebra Correspondence",
     "techStack": [
-      "Abstract Algebra",
-      "Lie Theory"
+      ["Expository Paper"]
     ],
     "description": 
       "We introduce Lie theory through the special case of matrix Lie groups. In doing so, we omit the topology that is essential to a more general study of Lie theory. In section 2, we introduce the notion of a matrix Lie group along with several basic definitions and properties of matrices. Section 3 defines and details matrix exponentiation; in section 4, we discuss tangent spaces and the Lie bracket, and in section 5 their connections to Lie algebras.",
     "imgSrc": "../images/E8Petrie.svg",
-    "projectLink": "../files/MatrixLieGroupsPaper.pdf",
+    "projectLink": "../files/MatrixLieGroups.pdf",
     "projectID": "matrix-lie-groups"
   },
   {
-    "projectName": "[Presentation Notes] Some Strange 3-adic Identities",
+    "projectName": "3-adic Identities on $\\sum_{i=0}^{n-1} \\binom{2i}{i}$",
     "techStack": [
-      "p-adic Analysis"
+      ["Presentation Notes"]
     ],
     "description": 
-      "Rough notes: Proofs of strange 3-adic identities regarding [ SUM (2i choose i) for i=0 to n-1 ] using Hensel's Lemma and Multivariable Calculus, originally proposed by Nicholas Strauss, Pontificia Universidade Catolica do Rio de Janeiro, Brazil, and Jeffrey Shallit, Dartmouth College in the American Math Monthly, 6625 [1990, 252].",
+      "Proofs of 3-adic Identities on $\\sum_{i=0}^{n-1} \\binom{2i}{i}$ using Hensel's Lemma and Multivariable Calculus, originally proposed by Nicholas Strauss, Pontificia Universidade Catolica do Rio de Janeiro, Brazil, and Jeffrey Shallit, Dartmouth College in the American Math Monthly, 6625 [1990, 252].",
     "imgSrc": "../images/p-adic-analysis.png",
-    "projectLink": "../files/Some_strange_3adic_identities.pdf",
+    "projectLink": "../files/3adicIdentities.pdf",
     "projectID": "3-adic-identities"
   }
 ]
