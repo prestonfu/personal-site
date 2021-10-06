@@ -17,6 +17,10 @@ const routes = [
     path: '/projects/writing',
   },
   {
+    label: 'Leadership',
+    path: '/leadership',
+  },
+  {
     label: 'Resume',
     path: '/files/Resume.pdf',
     newtab: true
