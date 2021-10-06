@@ -28,15 +28,18 @@ module.exports = {
           dark: '#5E49A3'
         },
         emerald: {
-          light: '#b3e5fc',
+          light: '#e1f5fe',
           DEFAULT: '#0288d1',
-          dark: '#0288d1',
+          dark: '#01579b',
         },
         gray: {
           light: '#4B5563',
           DEFAULT: '#262D2D',
           dark: '#1F2937',
-        }
+        },
+        background: {
+          DEFAULT: 'e4e4e4',
+        },
       },
       boxShadow: {
         green : '0 0px 15px 0px rgba(80, 200, 120, 0.7)',
