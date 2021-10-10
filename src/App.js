@@ -44,7 +44,7 @@ function App() {
             <Route exact path="/" component={Hero} />
             <Route path="/projects/math" component={ProjectsMath} />
             <Route path="/projects/cs" component={ProjectsCS} />
-            <Route path="/projects/writing" component={ProjectsWriting} />
+            <Route path="/writing" component={ProjectsWriting} />
             <Route path="/leadership" component={ProjectsLeadership} />
             <Route component={NotFound} status={404} />
           </Switch>

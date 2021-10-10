@@ -1,53 +1,7 @@
 @import-normalize;
-
-// @import 'libs/vars';
-// @import 'libs/functions';
-// @import 'libs/mixins';
-// @import 'libs/skel';
-
-// @import 'base/page';
-// @import 'base/typography';
-
-// @import 'components/author';
-// @import 'components/blurb';
-// @import 'components/box';
-// @import 'components/button';
-// @import 'components/form';
-// @import 'components/icon';
-// @import 'components/image';
-// @import 'components/list';
-// @import 'components/mini-post';
-// @import 'components/post';
-// @import 'components/section';
-// @import 'components/table';
-// @import 'components/hamburger';
-// @import 'components/markdown';
-
-// @import 'layout/header';
-// @import 'layout/wrapper';
-// @import 'layout/main';
-// @import 'layout/sidebar';
-// @import 'layout/intro';
-// @import 'layout/footer';
-// @import 'layout/menu';
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-// @include skel-breakpoints((
-//   xlarge: '(max-width: 1680px)',
-//   large: '(max-width: 1280px)',
-//   medium: '(max-width: 980px)',
-//   small: '(max-width: 736px)',
-//   xsmall: '(max-width: 480px)'
-// ));
-
-// @include skel-layout((
-//   reset: 'full',
-//   boxModel: 'border',
-//   grid: ( gutters: 1em )
-// ));
 
 html {
   scroll-behavior: smooth;
@@ -72,19 +26,19 @@ html {
 }
 
 .nav-name{
-  @apply font-inter text-lg sm:text-lg lg:text-lg transition duration-150 hover:text-emerald
+  @apply font-inter text-lg sm:text-lg lg:text-lg transition duration-150 hover:text-blue
 }
 
 .nav-link{
-  @apply font-inter hidden text-lg sm:text-lg lg:text-lg md:block transition duration-150 hover:text-emerald
+  @apply font-inter hidden text-lg sm:text-lg lg:text-lg md:block transition duration-150 hover:text-blue
 }
 
 .link{
-  @apply transition duration-300 text-emerald hover:text-emerald-dark hover:bg-emerald-light
+  @apply transition duration-300 text-blue hover:text-blue-dark hover:bg-blue-light
 }
 
 .contact-icon-link{
-  @apply font-inter text-base xl:text-base transition duration-300 hover:text-emerald
+  @apply font-inter text-base xl:text-base transition duration-300 hover:text-blue
 }
 
 .hero-header{
@@ -104,13 +58,13 @@ html {
 }
 
 .outline-button{
-  @apply text-sm transition duration-300 ease-in-out hover:bg-emerald hover:border-transparent hover:shadow-blue
-  hover:text-white py-3 px-6 border border-emerald-dark text-emerald-dark rounded-lg sm:text-lg font-inter
+  @apply text-sm transition duration-300 ease-in-out hover:bg-blue hover:border-transparent hover:shadow-blue
+  hover:text-white py-3 px-6 border border-blue-dark text-blue-dark rounded-lg sm:text-lg font-inter
 }
 
 .outline-button-sm{
-  @apply text-xs transition duration-300 ease-in-out hover:bg-emerald hover:border-transparent hover:shadow-blue
-  hover:text-white py-1.5 px-3 border border-transparent bg-emerald-light  rounded-lg font-inter
+  @apply text-xs transition duration-300 ease-in-out hover:bg-blue hover:border-transparent hover:shadow-blue
+  hover:text-white py-1.5 px-3 border border-transparent bg-blue-light  rounded-lg font-inter
 }
 
 .contact-indicator{
@@ -118,15 +72,15 @@ html {
 }
 
 .hover-border{
-  @apply p-6 transition duration-150 border-2 rounded-lg border-transparent hover:border-emerald-light hover:bg-emerald-light hover:bg-opacity-30 -mt-6 mb-0
+  @apply p-6 transition duration-150 border-2 rounded-lg border-transparent hover:border-blue-light hover:bg-blue-light hover:bg-opacity-30 -mt-6 mb-0
 }
 
 .tag-wrapper{
-  @apply py-0.5 px-2 rounded-md bg-emerald text-white mr-2 mb-2 hover:bg-emerald-dark transition duration-150
+  @apply py-0.5 px-2 rounded-md bg-blue text-white mr-2 mb-2 hover:bg-blue-dark transition duration-150
 }
 
 .tag-outline-wrapper{
-  @apply transform duration-300 py-0.5 px-2 rounded-md border border-emerald mr-2 mb-2
+  @apply transform duration-300 py-0.5 px-2 rounded-md border border-blue mr-2 mb-2
 }
 
 @media only screen and (min-width: 768px) {

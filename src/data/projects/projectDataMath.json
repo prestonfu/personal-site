@@ -35,12 +35,12 @@
     "projectID": "matrix-lie-groups"
   },
   {
-    "projectName": "3-adic Identities on $\\sum_{i=0}^{n-1} \\binom{2i}{i}$",
+    "projectName": "3-adic Identities on Sum [(2i choose i), {0≤i≤n-1}]",
     "techStack": [
       ["Presentation Notes"]
     ],
     "description": 
-      "Proofs of 3-adic Identities on $\\sum_{i=0}^{n-1} \\binom{2i}{i}$ using Hensel's Lemma and Multivariable Calculus, originally proposed by Nicholas Strauss, Pontificia Universidade Catolica do Rio de Janeiro, Brazil, and Jeffrey Shallit, Dartmouth College in the American Math Monthly, 6625 [1990, 252].",
+      "Proofs of 3-adic Identities on Sum [(2i choose i), {0≤i≤n-1}] using Hensel's Lemma and Multivariable Calculus, originally proposed by Nicholas Strauss, Pontificia Universidade Catolica do Rio de Janeiro, Brazil, and Jeffrey Shallit, Dartmouth College in the American Math Monthly, 6625 [1990, 252].",
     "imgSrc": "../images/p-adic-analysis.png",
     "projectLink": "../files/3adicIdentities.pdf",
     "projectID": "3-adic-identities"

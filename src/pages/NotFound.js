@@ -12,7 +12,7 @@ const NotFound = () => {
                 <b>404</b>
               </h1>
               <p>
-                The page you're looking for cannot be found. (Unless you were looking for this.)
+                Page not found. (Unless you were looking for this.)
               </p>
 
               <a href="/">

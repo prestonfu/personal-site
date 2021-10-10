@@ -14,7 +14,7 @@ const routes = [
   },
   {
     label: 'Writing',
-    path: '/projects/writing',
+    path: '/writing',
   },
   {
     label: 'Leadership',

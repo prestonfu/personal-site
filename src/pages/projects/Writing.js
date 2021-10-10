@@ -13,6 +13,7 @@ const Projects = () => {
         <h2 className = "text-center sm:text-center page-header">
           <b>WRITING</b>
         </h2>
+        <div className="h-8" />
         <div className="px-8 sm:pr-16 sm:pl-0 mt-12">
             {projData.map((data) => (
               <div id={data.projectID}>
