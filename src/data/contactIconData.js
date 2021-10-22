@@ -24,16 +24,16 @@ const data = [
     label: 'Github',
     icon: faGithub,
   },
-  {
-    link: 'https://www.facebook.com/preston.fu.0/',
-    label: 'Facebook',
-    icon: faFacebookF,
-  },
-  {
-    link: 'https://www.instagram.com/_prestonfu/',
-    label: 'Instagram',
-    icon: faInstagram,
-  },
+  // {
+  //   link: 'https://www.facebook.com/preston.fu.0/',
+  //   label: 'Facebook',
+  //   icon: faFacebookF,
+  // },
+  // {
+  //   link: 'https://www.instagram.com/_prestonfu/',
+  //   label: 'Instagram',
+  //   icon: faInstagram,
+  // },
 ];
 
 export default data;
