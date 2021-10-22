@@ -14,7 +14,11 @@ module.exports = {
         blue: {
           light: '#e1f5fe',
           DEFAULT: '#0288d1',
-          dark: '#01579b',
+          dark: '#2e59ba',
+        },
+        footercolor: {
+          light: "aaaaaa",
+          DEFAULT: '#f4f4f4',
         },
       },
       boxShadow: {

@@ -8,6 +8,7 @@ import ProjectsCS from "./pages/projects/ComputerScience"
 import ProjectsMath from "./pages/projects/Math"
 import ProjectsLeadership from "./pages/projects/Leadership"
 import ProjectsWriting from "./pages/projects/Writing"
+import Contact from "./pages/Contact"
 import NotFound from "./pages/NotFound"
 import Construction from "./pages/Construction"
 
@@ -38,7 +39,6 @@ function App() {
             <title>Preston Fu</title>
           </Helmet>
           <Header />
-          {/* <Navigation /> */}
 
           <Switch>
             <Route exact path="/" component={Hero} />
@@ -46,6 +46,7 @@ function App() {
             <Route path="/projects/cs" component={ProjectsCS} />
             <Route path="/writing" component={ProjectsWriting} />
             <Route path="/leadership" component={ProjectsLeadership} />
+            <Route path="/contact" component={Contact} />
             <Route component={NotFound} status={404} />
           </Switch>
 
