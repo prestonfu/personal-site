@@ -10,11 +10,6 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope';
 
 const data = [
   {
-    link: 'mailto:prestonmfu@gmail.com',
-    label: 'Email',
-    icon: faEnvelope,
-  },
-  {
     link: 'https://www.linkedin.com/in/preston-fu/',
     label: 'LinkedIn',
     icon: faLinkedinIn,
@@ -24,16 +19,6 @@ const data = [
     label: 'Github',
     icon: faGithub,
   },
-  // {
-  //   link: 'https://www.facebook.com/preston.fu.0/',
-  //   label: 'Facebook',
-  //   icon: faFacebookF,
-  // },
-  // {
-  //   link: 'https://www.instagram.com/_prestonfu/',
-  //   label: 'Instagram',
-  //   icon: faInstagram,
-  // },
 ];
 
 export default data;

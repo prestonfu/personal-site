@@ -15,9 +15,7 @@ const NotFound = () => {
           </h1>
           <div className="h-8" />
           <p>
-            Feel free to get in touch! Contact me at <a className="link" href="mailto:prestonmfu@gmail.com">
-              prestonmfu@gmail.com
-            </a>.
+            Feel free to get in touch!
           </p>
           <div className="h-4" />
 
