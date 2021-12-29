@@ -1,33 +1,23 @@
 const routes = [
   {
-    index: true,
-    label: "Preston Fu",
-    path: '/',
+    name: 'Math',
+    href: '/projects/math',
   },
   {
-    label: 'Math',
-    path: '/projects/math',
+    name: 'Computer Science',
+    href: '/projects/cs',
   },
   {
-    label: 'Computer Science',
-    path: '/projects/cs',
+    name: 'Writing',
+    href: '/writing',
   },
   {
-    label: 'Writing',
-    path: '/writing',
+    name: 'Leadership',
+    href: '/leadership',
   },
   {
-    label: 'Leadership',
-    path: '/leadership',
-  },
-  // {
-  //   label: 'Resume',
-  //   path: '/files/Resume.pdf',
-  //   newtab: true
-  // },
-  {
-    label: 'Contact',
-    path: '/contact',
+    name: 'Contact',
+    href: '/contact',
   },
 ];
 

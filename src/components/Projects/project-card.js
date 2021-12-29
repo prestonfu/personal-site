@@ -7,21 +7,21 @@ export default function ProjectCard({
   imgSrc,
   projectLink
 }) {
-  if (typeof description == "string"){
+  if (typeof description == "string") {
     return (
-      <a href = {projectLink} target="_blank" rel="noreferrer">
+      <a href={projectLink} target="_blank" rel="noreferrer">
         <div className="hover-border">
-        <div className = "project-grid">
-          <div className="col-start-1 col-end-2 pr-0 md:pr-10">
-            <img src={imgSrc} alt={projectName} />
-            <div className = "h-6 md:h-0"></div>
-          </div>
-          <div className="col-start-2 sm:mt-0 col-end-2">
+          <div className="project-grid">
+            <div className="col-start-1 col-end-2 pr-0 md:pr-10">
+              <img src={imgSrc} alt={projectName} />
+              <div className="h-6 md:h-0"></div>
+            </div>
+            <div className="col-start-2 sm:mt-0 col-end-2">
               <h3 className="text-xl sm:text-2xl">{projectName}</h3>
               <div className="flex flex-wrap mt-2">
                 {techStack.map((tech) => (
-                  <a href={tech[1]} target="_blank"> 
-                    <div 
+                  <a href={tech[1]} target="_blank">
+                    <div
                       key={tech[0]}
                       className="tag-wrapper">
                       <p className="text-xs sm:text-sm font-inter">{tech[0]}</p>
@@ -29,26 +29,26 @@ export default function ProjectCard({
                   </a>
                 ))}
               </div>
-              <p className = "text-gray-700 text-base">{description}</p>
+              <p className="text-gray-700 text-base">{description}</p>
+            </div>
           </div>
         </div>
-      </div>
-    </a>
+      </a>
     )
   } else {
     return (
-      <a href = {projectLink} target="_blank" rel="noreferrer">
+      <a href={projectLink} target="_blank" rel="noreferrer">
         <div className="hover-border">
-        <div className = "project-grid">
-          <div className="col-start-1 col-end-2 pr-0 md:pr-10">
-            <img src={imgSrc} alt={projectName} />
-            <div className = "h-6 md:h-0"></div>
-          </div>
-          <div className="col-start-2 sm:mt-0 col-end-2">
+          <div className="project-grid">
+            <div className="col-start-1 col-end-2 pr-0 md:pr-10">
+              <img src={imgSrc} alt={projectName} />
+              <div className="h-6 md:h-0"></div>
+            </div>
+            <div className="col-start-2 sm:mt-0 col-end-2">
               <h3 className="text-xl sm:text-2xl">{projectName}</h3>
               <div className="flex flex-wrap mt-2">
                 {techStack.map((tech) => (
-                  <div 
+                  <div
                     key={tech}
                     className="tag-wrapper">
                     <p className="text-xs sm:text-sm font-inter">{tech}</p>
@@ -57,16 +57,16 @@ export default function ProjectCard({
               </div>
               <ul className="list-square pl-8 pt-1">
                 {description.map((listItem) => (
-                  <li 
+                  <li
                     key={listItem}
                   >
                     {listItem}
                   </li>
                 ))}
               </ul>
+            </div>
           </div>
         </div>
-      </div>
       </a>
     )
   }

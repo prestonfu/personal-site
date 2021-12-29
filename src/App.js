@@ -1,6 +1,7 @@
-import "./static/css/main.scss"
+import "./static/main.css"
 
 import Header from "./components/Header/header"
+import Navbar from "./components/Header/NavBar";
 import Footer from "./components/Footer/footer"
 
 import Hero from "./pages/Hero";
@@ -38,7 +39,8 @@ function App() {
           <Helmet>
             <title>Preston Fu</title>
           </Helmet>
-          <Header />
+          {/* <Header /> */}
+          <Navbar />
 
           <Switch>
             <Route exact path="/" component={Hero} />

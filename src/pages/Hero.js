@@ -11,7 +11,7 @@ const Hero = () => {
           {/* <div className="hero-grid"> */}
           <div className="flex justify-center text-center sm:text-left grid sm:grid-cols-12">
             <div className="sm:col-span-1 md:col-span-3">
-              <img className="rounded-full flex justify-center md:block" width="80%" src="../images/mug.png" />
+              <img className="rounded-full flex justify-center md:block" width="80%" src="../images/me.png" />
             </div>
             <div className="sm:col-span-9 md:col-span-8">
               <h1 className="mx-6 sm:mx-0 hero-header">Hi! I'm Preston.</h1>

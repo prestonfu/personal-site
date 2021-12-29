@@ -1,0 +1,189 @@
+@import-normalize;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+#app {
+  height: 100%;
+  min-height: 100vh;
+}
+
+@layer base {
+  h1 {
+    @apply text-3xl font-inter;
+  }
+  h2 {
+    @apply text-2xl font-inter;
+  }
+  h3 {
+    @apply font-inter text-lg sm:text-xl;
+  }
+  p {
+    @apply font-inter text-base sm:text-lg;
+  }
+  li {
+    @apply font-inter text-base text-gray-700 pb-1;
+  }
+}
+
+.nav-name {
+  @apply font-inter text-lg sm:text-lg lg:text-lg transition duration-150 hover:text-blue-dark;
+}
+
+.nav-link {
+  @apply font-inter hidden text-lg sm:text-lg lg:text-lg md:block transition duration-150 hover:text-blue-dark;
+}
+
+.link {
+  @apply transition duration-300 text-blue hover:text-blue-dark hover:bg-blue-light;
+}
+
+.page-contact-icon-link {
+  @apply font-inter text-2xl transition duration-300 text-gray-600 hover:text-blue-dark;
+}
+
+.footer-contact-icon-link {
+  @apply font-inter text-lg transition duration-300 text-gray-400 hover:text-blue-dark;
+}
+
+.hero-header {
+  @apply my-0 text-2xl sm:text-3xl sm:my-1 lg:text-4xl font-inter;
+}
+
+.page-header {
+  @apply my-0 text-2xl sm:text-2xl sm:my-1 lg:text-3xl font-inter;
+}
+
+.section-header {
+  @apply my-0 text-xl sm:text-xl sm:my-1 lg:text-2xl font-inter;
+}
+
+.date {
+  @apply font-inter text-sm text-gray-700 sm:text-base;
+}
+
+.outline-button {
+  @apply text-sm transition duration-300 ease-in-out hover:bg-blue hover:border-transparent hover:shadow-blue
+  hover:text-white py-3 px-6 border border-blue-dark text-blue-dark rounded-lg sm:text-lg font-inter;
+}
+
+.outline-button-sm {
+  @apply text-xs transition duration-300 ease-in-out hover:bg-blue hover:border-transparent hover:shadow-blue
+  hover:text-white py-1.5 px-3 border border-transparent bg-blue-light  rounded-lg font-inter;
+}
+
+.contact-indicator {
+  @apply text-xs py-1.5 px-3 border border-transparent bg-gray-700 text-gray-100 rounded-lg font-inter;
+}
+
+.hover-border {
+  @apply p-6 transition duration-150 border-2 rounded-lg border-transparent hover:border-blue-light hover:bg-blue-light hover:bg-opacity-30 -mt-6 mb-0;
+}
+
+.tag-wrapper {
+  @apply py-0.5 px-2 rounded-md bg-blue text-white mr-2 mb-2 hover:bg-blue-dark transition duration-150;
+}
+
+.tag-outline-wrapper {
+  @apply transform duration-300 py-0.5 px-2 rounded-md border border-blue mr-2 mb-2;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-grid {
+    display: grid;
+    grid-template-columns: 8em 1fr;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .experience-grid {
+    display: grid;
+    grid-template-columns: 13.5em 1fr;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .honors-awards-grid {
+    display: grid;
+    grid-template-columns: 13.5em 1fr;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .project-grid {
+    display: grid;
+    grid-template-columns: 2.5fr 5.5fr;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .education-grid {
+    display: grid;
+    grid-template-columns: 13.5em 1fr;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .education-grid-alt {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 13.5em 1fr 1fr;
+  }
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 400;
+  src: url("../fonts/Inter/Inter-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 500;
+  src: url("../fonts/Inter/Inter-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 600;
+  src: url("../fonts/Inter/Inter-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 700;
+  src: url("../fonts/Inter/Inter-Bold.ttf");
+}
+
+/* width */
+::-webkit-scrollbar {
+  @apply w-4;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 100vh;
+  background: #edf2f7;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #9ca3af;
+  border-radius: 100vh;
+  border: 3px solid #edf2f7;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-600;
+}
