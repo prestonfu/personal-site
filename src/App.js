@@ -1,8 +1,7 @@
 import "./static/main.css"
 
-import Header from "./components/Header/header"
 import Navbar from "./components/Header/NavBar";
-import Footer from "./components/Footer/footer"
+import Footer from "./components/Footer/Footer"
 
 import Hero from "./pages/Hero";
 import ProjectsCS from "./pages/projects/ComputerScience"

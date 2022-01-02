@@ -29,18 +29,18 @@ export default function Navbar() {
   return (
     <nav className="z-40 w-screen bg-white shadow fixed">
       <div className="container">
+
         <div className="flex justify-between h-16">
-          {/* <Link href="/"> */}
-          <a className="flex-shrink-0 flex items-center ml-5" href="/">
+          {/* Homepage link */}
+          <a className="flex-shrink-0 flex items-center ml-6" href="/">
             <p className="nav-name"><b>PRESTON FU</b></p>
           </a>
 
-          {/* </Link> */}
-          {/* <div className="flex"> */}
-          <div className="mt-4 mr-5 items-center lg:hidden">
-            {/* Mobile menu button */}
+          {/* Mobile nav button */}
+          <div className="absolute top-0 right-0 mt-4 mr-6 items-center lg:hidden">
             <button
-              className="toggle inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 "
+              className="toggle inline-flex items-center justify-center p-2 rounded-md \
+                text-gray-400 hover:text-gray-500 hover:bg-gray-100"
               aria-expanded="false"
               onClick={() => setNavOpen(!navOpen)}
             >
@@ -65,7 +65,6 @@ export default function Navbar() {
               />
             ))}
           </div>
-          {/* </div> */}
         </div>
       </div>
 
