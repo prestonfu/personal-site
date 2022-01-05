@@ -7,13 +7,12 @@ const Footer = () => {
     <div className="bg-gray-100">
       <div className="h-auto flex flex-col items-center sm:grid grid-cols-2">
         <div className="py-2 sm:py-6 sm:ml-6 ">
-          <p className="text-xs lg:text-sm text-gray-500">© PRESTON FU. Thanks to <a href="https://henryweng.com" target="_blank">Henry Weng</a> for this website's design.</p>
+          <p className="text-xs lg:text-sm text-gray-500">© PRESTON FU. Thanks to <a href="https://henryweng.com" target="_blank" rel="noreferrer">Henry Weng</a> for this website's design.</p>
         </div>
         <div className="flex justify-end items-center space-x-5">
-          {/* <div className="contact-indicator"><b>Contact →</b></div> */}
           <ul className="icons">
             {data.map((s) => (
-              <a className="py-6 mr-5 footer-contact-icon-link" href={s.link} target="_blank">
+              <a className="py-6 mr-5 footer-contact-icon-link" href={s.link} target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={s.icon} />
               </a>
             ))}

@@ -18,7 +18,7 @@ const Resume = () => {
             <a href="#education"><p className="footer-link font-bold">EDUCATION</p></a>
             <a href="#honors-awards"><p className="footer-link font-bold">HONORS &amp; AWARDS</p></a>
             <a href="#skills"><p className="footer-link font-bold">SKILLS</p></a>
-            <a href="/files/Resume.pdf  " target="_blank">
+            <a href="/files/Resume.pdf" target="_blank" rel="noreferrer">
               <button className="outline-button-sm">
                 <b>SAVE PDF</b>
               </button>

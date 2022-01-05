@@ -21,7 +21,7 @@ const NotFound = () => {
 
           <ul className="icons">
             {data.map((s) => (
-              <a className="py-6 mr-5 page-contact-icon-link" href={s.link} target="_blank">
+              <a className="py-6 mr-5 page-contact-icon-link" href={s.link} target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={s.icon} />
               </a>
             ))}

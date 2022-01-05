@@ -20,7 +20,7 @@ export default function ProjectCard({
               <h3 className="text-xl sm:text-2xl">{projectName}</h3>
               <div className="flex flex-wrap mt-2">
                 {techStack.map((tech) => (
-                  <a href={tech[1]} target="_blank">
+                  <a href={tech[1]} target="_blank" rel="noreferrer">
                     <div
                       key={tech[0]}
                       className="tag-wrapper">

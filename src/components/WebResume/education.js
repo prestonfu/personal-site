@@ -6,27 +6,27 @@ const Education = () => {
     <div className="h-auto">
       <div className="mx-auto max-w-6xl sm:pl-16 z-0">
         <div className="h-12" />
-        <h2 className = "text-center lg:text-left section-header">
+        <h2 className="text-center lg:text-left section-header">
           <b>EDUCATION</b>
         </h2>
         <div className="px-8 sm:pr-16 sm:pl-0 mt-12">
 
           <div className="education-grid">
-            <div className = "flex justify-center md:block">
+            <div className="flex justify-center md:block">
               <img className="rounded-lg h-2/3 w-2/3 md:w-auto md:h-auto" src="../images/saratoga.jpg" alt="Saratoga High" />
             </div>
             <div className="mt-6 md:mt-0 md:pl-10 ">
               <div id="shs" />
-              <div className = "flex justify-center md:block">
+              <div className="flex justify-center md:block">
                 <h3>
                   <a href="https://www.saratogahigh.org/" className="link" target="_blank" rel="noreferrer">Saratoga High School</a>
                 </h3>
               </div>
-              <div className = "flex justify-center md:block">
+              <div className="flex justify-center md:block">
                 <p className="date">GPA: 4.51 <b>∙</b> SAT: 1590 <b>∙</b> ACT: 36</p>
               </div>
-              <div className="h-4"/>
-              <div className = "flex justify-center md:block">
+              <div className="h-4" />
+              <div className="flex justify-center md:block">
                 <p>Activities &amp; Societies</p>
               </div>
               <div className="h-2"></div>
@@ -53,8 +53,8 @@ const Education = () => {
                   <p className="text-xs sm:text-sm font-inter">Varsity Tennis</p>
                 </div>
               </div>
-              <div className="h-4"/>
-              <div className = "flex justify-center md:block">
+              <div className="h-4" />
+              <div className="flex justify-center md:block">
                 <p>Selected Coursework</p>
               </div>
               <div className="h-2"></div>
@@ -87,29 +87,29 @@ const Education = () => {
                   <p className="text-xs sm:text-sm font-inter">AP Calculus BC</p>
                 </div>
               </div>
-           </div>
+            </div>
           </div>
           <div className="h-4" />
 
           <div className="px-8 sm:pr-16 sm:pl-0 mt-12">
             <div className="education-grid">
-              <div className = "flex justify-center md:block">
+              <div className="flex justify-center md:block">
                 <img className="rounded-lg h-2/3 w-2/3 md:w-auto md:h-auto" src="../images/coursera.png" alt="Additional Coursework" />
               </div>
               <div className="mt-6 md:mt-0 md:pl-10 ">
-                <div className = "flex justify-center md:block">
+                <div className="flex justify-center md:block">
                   <h3>
                     Additional Coursework
                   </h3>
                 </div>
-              <div className="h-2"></div>
+                <div className="h-2"></div>
                 <div className="flex justify-center md:justify-start flex-wrap">
-                  <a href="https://www.deeplearning.ai/program/deep-learning-specialization/" target="_blank">
-                  <div className="tag-outline-wrapper">
-                    <p className="text-xs sm:text-sm font-inter">Coursera/Deeplearning.AI: 5-course Deep Learning Specialization</p>
-                  </div>
+                  <a href="https://www.deeplearning.ai/program/deep-learning-specialization/" target="_blank" rel="noreferrer">
+                    <div className="tag-outline-wrapper">
+                      <p className="text-xs sm:text-sm font-inter">Coursera/Deeplearning.AI: 5-course Deep Learning Specialization</p>
+                    </div>
                   </a>
-                  <a href="https://www.coursera.org/specializations/algorithms" target="_blank">
+                  <a href="https://www.coursera.org/specializations/algorithms" target="_blank" rel="noreferrer">
                     <div className="tag-outline-wrapper">
                       <p className="text-xs sm:text-sm font-inter">Coursera/Stanford: 4-course Algorithms Specialization</p>
                     </div>
