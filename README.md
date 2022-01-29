@@ -1,8 +1,8 @@
-# Website is available at [https://prestonfu.com](prestonfu.com) !!
+# [https://prestonfu.com](prestonfu.com)
 
 ---
 
-To use this website template, please contact me for permission and fork this repo. Below is information on how to use it.
+To use this website template, fork this repo.
 
 # Getting Started with Create React App
 
