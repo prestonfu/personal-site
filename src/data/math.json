@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Lifting Properties and Classification of Covering Spaces",
+    "tags": [
+      {
+        "label": "Expository Paper",
+        "url": "../files/CoveringSpaces.pdf"
+      }
+    ],
+    "description": "We study the fundamental group in general topological spaces and its relationship to covering spaces. Great focus is placed on lifting paths and homotopies in covering spaces and their relationship to the induced homomorphism. Our discussion concludes with the universal cover — proving existence and uniqueness in a direct constructing and highlighting its utility through applications. We conclude with a discussion of the relationship between covering spaces and the Galois correspondence.",
+    "imgSrc": "../images/colorful-covering-spaces.jpg",
+    "id": "covering-spaces"
+  },
+  {
+    "title": "Math Beyond the Classroom",
+    "tags": [
+      {
+        "label": "Amazon Paperback",
+        "url": "https://www.amazon.com/Math-Beyond-Classroom-Preston-Fu/dp/B08KPXM1TD/ref=sr_1_3?dchild=1&keywords=math+beyond+the+classroom&qid=1632605545&sr=8-3"
+      }
+    ],
+    "description": "An overview of a wide variety of fascinating topics in mathematics, including complex numbers, the principle of inclusion-exclusion, power of a point, modular arithmetic, and more. Containing over 200 problems and filled with highly-motivated solutions and hints, this book is suitable for middle and high school students interested in developing a deeper conceptual understanding of math through learning by doing. Raised funds for complimentary need-based copies. Nationally read by students and teachers; featured by Minnesota State MATHCOUNTS.",
+    "imgSrc": "../images/math-beyond-3d.png",
+    "id": "math-beyond-classroom"
+  },
+  {
+    "title": "Matrix Lie Groups and the Lie group–Lie Algebra Correspondence",
+    "tags": [
+      {
+        "label": "Expository Paper",
+        "url": "../files/MatrixLieGroups.pdf"
+      }
+    ],
+    "description": "We introduce Lie theory through the special case of matrix Lie groups. In doing so, we omit the topology that is essential to a more general study of Lie theory. In section 2, we introduce the notion of a matrix Lie group along with several basic definitions and properties of matrices. Section 3 defines and details matrix exponentiation; in section 4, we discuss tangent spaces and the Lie bracket, and in section 5 their connections to Lie algebras.",
+    "imgSrc": "../images/E8Petrie.svg",
+    "id": "matrix-lie-groups"
+  },
+  {
+    "title": "3-adic Identities on Sum [(2i choose i), {0≤i≤n-1}]",
+    "tags": [
+      {
+        "label": "Presentation Notes",
+        "url": "../files/3adicIdentities.pdf"
+      }
+    ],
+    "description": "Proofs of 3-adic Identities on Sum [(2i choose i), {0≤i≤n-1}] using Hensel's Lemma and Multivariable Calculus, originally proposed by Nicholas Strauss, Pontificia Universidade Catolica do Rio de Janeiro, Brazil, and Jeffrey Shallit, Dartmouth College in the American Math Monthly, 6625 [1990, 252].",
+    "imgSrc": "../images/p-adic-analysis.png",
+    "id": "3-adic-identities"
+  }
+]

@@ -1,34 +1,34 @@
 [
   {
-    "projectName": "Gaussian Mechanism as Protection from Sensitive Input Memorization",
-    "techStack": [
-      [
-        "Expository Paper",
-        "../files/DP_PIN_Protection.pdf"
-      ],
-      [
-        "Github",
-        "https://github.com/prestonfu/dp-protect-pin"
-      ]
+    "title": "Gaussian Mechanism as Protection from Sensitive Input Memorization",
+    "tags": [
+      {
+        "label": "Expository Paper",
+        "url": "../files/DP_PIN_Protection.pdf"
+      },
+      {
+        "label": "Github",
+        "url": "https://github.com/prestonfu/dp-protect-pin"
+      }
     ],
     "description": "We study the mathematical notion of differential privacy and its quantitative properties and qualitative attributes in real-world usage. In particular, we investigate the differentially private mechanisms of randomized response and the Laplace mechanism. Our discussion concludes with a case study on protecting PIN numbers from a perplexity-based attack on an input-memorizing LSTM model through Gaussian noise sampling.",
     "imgSrc": "../images/privacy.jpg",
-    "projectID": "dp-pin-protection"
+    "id": "dp-pin-protection"
   },
   {
-    "projectName": "New virtual rodent environments and dimensionality reduction: Improved computational tractability for autonomous navigation",
-    "techStack": [
-      [
-        "Poster",
-        "../files/Virtual_rodent_environments_and_dimensionality_reduction.pdf"
-      ],
-      [
-        "View Talk (jump to 0:22:14)",
-        "https://bostonu.zoom.us/rec/play/zAK3Hl6VQk3KeB3i4hHULFWJlM43IO4mht25CAP8x9sFqlYe5fl5oCuWlNxwhZViXxTmoJQPhQSPXWUi.a0fXjBDlgHLkQKfl?startTime=1628882293000&_x_zm_rtaid=-VK9n7QrTeirpWbOhgeb_g.1633424597613.dd3905dc62dd6fe3965ee3eb331e8b93&_x_zm_rhtaid=779"
-      ]
+    "title": "New virtual rodent environments and dimensionality reduction: Improved computational tractability for autonomous navigation",
+    "tags": [
+      {
+        "label": "Poster",
+        "url": "../files/Virtual_rodent_environments_and_dimensionality_reduction.pdf"
+      },
+      {
+        "label": "View Talk (jump to 0:22:14)",
+        "url": "https://bostonu.zoom.us/rec/play/zAK3Hl6VQk3KeB3i4hHULFWJlM43IO4mht25CAP8x9sFqlYe5fl5oCuWlNxwhZViXxTmoJQPhQSPXWUi.a0fXjBDlgHLkQKfl?startTime=1628882293000&_x_zm_rtaid=-VK9n7QrTeirpWbOhgeb_g.1633424597613.dd3905dc62dd6fe3965ee3eb331e8b93&_x_zm_rhtaid=779"
+      }
     ],
     "description": "Inspired by biological organisms’ on-the-fly learning and adaptations to unstructured environments, reinforcement learning (RL) research has worked to advance the science of autonomy to include dynamic, novel domains. Despite improvements in the performance of state-of-the-art RL algorithms such as Proximal Policy Optimization, training Google DeepMind’s virtual rodent remains computationally intensive. We provide two mechanisms for simplification: developing arena-task pairs on which the rodent can be more efficiently trained and reducing the rodent’s action space dimensionality from 38 to 24 without significantly affecting performance. Specifically, we create a locomotion task, rewarding the rodent for maintaining a nonzero constant velocity, and a food collection task, rewarding the rodent for collecting items that spawn and despawn on fixed time intervals. Furthermore, we analyze simulation data and identify the subset of virtual actuators that are most crucial to accomplishing the locomotion task by determining those with least variability across simulations. Our simplified environments and virtual rodent enable more efficient testing of neuroscience hypotheses and faster prototyping of novel RL algorithms for autonomous navigation. Testing learned policies against real-world biological experiments would achieve autonomous goal-directed navigation in novel environments and motivate methodology improvements.",
     "imgSrc": "../images/Virtual_rodent_environments_and_dimensionality_reduction.png",
-    "projectID": "virtual-rodent"
+    "id": "virtual-rodent"
   }
 ]
