@@ -1,5 +1,7 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
+import typewriterList from '../data/hero/typewriterList';
+import bio from '../data/hero/bio';
 
 
 const Hero = () => {
@@ -24,13 +26,7 @@ const Hero = () => {
                 <h1 className="hidden sm:block hero-header">
                   <Typewriter
                     options={{
-                      strings: [
-                        '<b>solving real-world problems.</b>',
-                        '<b>learning cool things.</b>',
-                        '<b>meeting new people.</b>',
-                        '<b>traveling the world.</b>',
-                        '<b>folding modular origami.</b>',
-                      ],
+                      strings: typewriterList,
                       autoStart: true,
                       loop: true,
                       delay: 50,
@@ -43,16 +39,7 @@ const Hero = () => {
                 </h1>
               </div>
               <div className="flex mt-6 mx-6 sm:mx-0">
-                <p>
-                  I'm a student at Saratoga High School and math and
-                  computer science enthusiast. I'm specifically interested
-                  in topology, analytic number theory, algorithms, and deep
-                  learning. As an ardent supporter of promoting equity in
-                  education, I'm also a cofounder of <a className="link" href="/leadership#everaise">
-                    Everaise Academy
-                  </a>,
-                  an online STEM school with over 1,500 students spanning 40 countries.
-                </p>
+                {bio}
               </div>
               {/* <div className="h-10" /> */}
               {/* <a href="/projects/math">
