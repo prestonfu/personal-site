@@ -15,10 +15,15 @@ const NotFound = () => {
           </h1>
           <div className="h-8" />
           <p>
-            Feel free to get in touch!
+            Feel free to get in touch! I respond most quickly via email: <a
+              className="link"
+              href="mailto:prestonmfu@gmail.com"
+              target="_blank"
+              rel="noreferrer">
+              prestonmfu@gmail.com
+            </a>.
           </p>
           <div className="h-4" />
-
           <ul className="icons">
             {data.map((s) => (
               <a className="py-6 mr-5 page-contact-icon-link" href={s.link} target="_blank" rel="noreferrer">
